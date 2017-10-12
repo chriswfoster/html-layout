@@ -1,0 +1,77 @@
+header {
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    height: 300px;
+    color: grey;
+    border: solid;
+    position: fixed;
+    border-color: black;
+}
+
+.purple-block {
+    background-color: rgb(124, 45, 124);
+    height: 200px;
+    width: 80px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.green-block {
+    background-color: green;
+    top: 20px;
+    width: 400px;
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 270px;
+    height: 270px; 
+    position: absolute;
+    top:20px;
+    bottom: 20px;
+    left: 680px;
+    background-color: rgb(98, 182, 184);
+}
+
+.middle-div{
+   
+    border: dotted;
+    left: 30px;
+    right: 30px;
+    top: 360px;
+    height: 300px;
+    position: absolute;
+    border-color: black;
+}
+.shadow-box{
+    background-color: beige;
+    margin: 50px;
+    left: 30px;
+    right:25px;
+    height: 200px;
+    box-shadow: 10px 10px 5px #888888;
+}
+footer {
+    
+     border: solid;
+     border-width: 1px;
+    left: 40%;
+     margin: auto;
+     width: 20%;
+     top: 700px;
+     height: 230px;
+     position: absolute;
+     border-color: rgb(201, 201, 201);
+     box-shadow: 2px 2px 2px #dbdbdb
+}
+.footer-text{
+    position: relative;
+    top:50px;
+    color: darkblue;
+    letter-spacing: 5px;
+}
